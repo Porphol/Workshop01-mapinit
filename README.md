@@ -41,10 +41,6 @@ Feel free to explore and modify the code to create your own unique game using Ph
 
 ---
 
-Sure, I'll create a README guide that describes the key elements and properties used in your `GameScene` class from Phaser. This guide will be formatted as instructions, outlining the names of assets with their paths, origins, scales, positions, and the update function.
-
----
-
 # GameScene Assets and Properties Guide
 
 ## Introduction
