@@ -1,5 +1,5 @@
 # GameScene Assets and Properties Guide
-> to init project: [project init.md](./project init.md)
+to init project: [project init.md](./project init.md)
 
 ## Introduction
 This guide provides detailed information about the assets and properties used in the `GameScene` class for a Phaser game project. Each asset's name, file path, origin, scale, position, and specific animations or functions are explained.
