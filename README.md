@@ -115,7 +115,4 @@ This guide provides detailed information about the assets and properties used in
   - **Background Layer 1:** Moves at a speed of `0.07`
   - **Background Layer 2:** Moves at a speed of `0.1`
 
-## Conclusion
-This guide provides a comprehensive overview of the assets used in the `GameScene` of your Phaser project, including their paths, origins, scales, positions, and specific animations or functions.
-
 ---
