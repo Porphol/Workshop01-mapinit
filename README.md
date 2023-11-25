@@ -74,3 +74,6 @@ This guide provides detailed information about the assets and properties used in
   - **Background Layer 2:** Moves at a speed of `0.1`
 
 ---
+
+# Result preview
+![result](./ezgif-4-121560c83e.gif)
