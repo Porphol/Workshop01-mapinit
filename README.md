@@ -24,6 +24,7 @@ This guide provides detailed information about the assets and properties used in
    - **Position:** (0, 0)
 
 ## Cloud Platforms
+### all cloud stay in `staticGroup` calls `cloudGroup`
 1. **Cloud 1 (cloud1)**
    - **Path:** `assets/image/game-scene/platforms/cl-long.png`
    - **Origin:** (0, 1)
