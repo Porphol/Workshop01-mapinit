@@ -36,9 +36,12 @@ export function preload() {
 
   //player
   this.load.image("player", "assets/image/_dev/ufo.png");
+
+  //button
+  this.load.image("button", "assets/ui/up.png");
 }
 
-export function create() {
+export function create(applyPhysics) {
   // Background
   this.bg = this.add.tileSprite(0, 0, 1280, 720, "background").setOrigin(0, 0);
   this.bgLayer1 = this.add
@@ -92,6 +95,16 @@ export function create() {
     .setCollideWorldBounds(true)
     .setScale(0.05)
     .setSize(2000, 1000);
+
+  this.button = this.add.image(1200, 600, "button").setScale(5).setDepth(1);
+
+  if (applyPhysics) {
+    this.player.setGravityY(300);
+    this.player.setInteractive();
+    this.physics.add.collider(this.player, this.platformBase);
+    this.platformBase.body.immovable = true;
+    this.platformBase.body.allowGravity = false;
+  }
 }
 
 export function update() {
