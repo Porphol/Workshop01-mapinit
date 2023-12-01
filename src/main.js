@@ -1,7 +1,7 @@
 import 'phaser';
 import Phaser from 'phaser';
-import GameScene from './Scene/GameScene';
-import InputClass from './Scene/InputClass';
+import GameScene from './scene/GameScene';
+import InputClass from './scene/InputClass';
 
 const config = {
     type: Phaser.AUTO,

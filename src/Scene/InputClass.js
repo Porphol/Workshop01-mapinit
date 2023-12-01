@@ -1,4 +1,5 @@
-import Phaser from "phaser";
+import Phaser, { Utils } from "phaser";
+import * as Initialize from '../utils/Initialize'; 
 
 class InputClass extends Phaser.Scene {
   constructor() {
@@ -6,15 +7,21 @@ class InputClass extends Phaser.Scene {
   }
 
   preload() {
-    //! load assets here
+    Initialize.preload.call(this); //! ignore initialize preload
+    //* start coding here
+    
   }
 
   create() {
-    //! create assets here
+    Initialize.create.call(this); //! ignore initialize create
+    //* start coding here
+
   }
 
   update() {
-    //! update assets here
+    Initialize.update.call(this); //! ignore initialize update
+    //* start coding here
+
   }
 }
 
