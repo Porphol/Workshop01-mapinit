@@ -1,6 +1,7 @@
 import 'phaser';
 import Phaser from 'phaser';
 import GameScene from './Scene/GameScene';
+import InputClass from './Scene/InputClass';
 
 const config = {
     type: Phaser.AUTO,
@@ -17,7 +18,8 @@ const config = {
         }
     },
     scene: [
-        GameScene
+        // GameScene,
+        InputClass
     ]
 }
 let game = new Phaser.Game(config);
